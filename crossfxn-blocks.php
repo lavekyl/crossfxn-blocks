@@ -25,3 +25,8 @@ function create_block_crossfxn_blocks_block_init() {
 	register_block_type( __DIR__ . '/build/section' );
 }
 add_action( 'init', 'create_block_crossfxn_blocks_block_init' );
+
+function crossfxn_plugin_styles() {
+  wp_enqueue_style( 'crossfxn-plugin-style',  plugin_dir_url( __FILE__ ) . 'style.css');
+}
+add_action( 'wp_enqueue_scripts', 'crossfxn_plugin_styles' );

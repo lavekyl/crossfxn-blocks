@@ -1,1 +1,0 @@
-{"version":3,"file":"banner/view.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAE,wDAAyD,CAAC;AACvE,8B","sources":["webpack://crossfxn-blocks/./src/banner/view.js"],"sourcesContent":["/* eslint-disable no-console */\nconsole.log( 'Hello World! (from create-block-crossfxn-blocks block)' );\n/* eslint-enable no-console */\n"],"names":["console","log"],"sourceRoot":""}

@@ -31,7 +31,7 @@ import './editor.scss';
  */
 export default function Edit({attributes, setAttributes}) {
 
-	const blockProps = useBlockProps({className: 'crossfxn-section'});
+	const blockProps = useBlockProps({className: 'crossfxn-section font-bold'});
 
 	return (
 		<div { ...blockProps }>
