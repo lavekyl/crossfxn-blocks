@@ -13,5 +13,16 @@
 	"textdomain": "section",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css"
+	"style": "file:./style-index.css",
+	"keywords": [ 
+		"crossfxn", 
+		"section" 
+	],
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "h2"
+		}
+	}
 }
